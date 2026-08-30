@@ -6,12 +6,12 @@ terraform {
       version = "~> 4.0"
     }
   }
-  backend "azurerm" {
-    resource_group_name  = "az-rg-devops01"
-    storage_account_name = "azstgdevops01"
-    container_name       = "azstgdevcontainer"
-    key                  = "devrg.terraform.tfstate"
-  }
+  # backend "azurerm" {
+  #   resource_group_name  = "az-rg-devops01"
+  #   storage_account_name = "azstgdevops01"
+  #   container_name       = "azstgdevcontainer"
+  #   key                  = "devrg.terraform.tfstate"
+  # }
 }
 
 provider "azurerm" {
