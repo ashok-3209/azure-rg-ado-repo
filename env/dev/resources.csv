@@ -1,0 +1,3 @@
+Key,Name,Location,Environment,Workload,ManagedBy
+rg1,rg-dev-app-eastus,eastus,dev,application,terraform
+rg2,rg-dev-db-eastus,eastus,dev,database,terraform
